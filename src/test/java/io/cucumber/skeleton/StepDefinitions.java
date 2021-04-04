@@ -19,7 +19,7 @@ public class StepDefinitions {
 //        List<String> list = dt.asList(String.class);
 //        System.out.println("Username - " + list.get(0));
 //        System.out.println("Password - " + list.get(1));
-        System.out.println("Hello");
+        System.out.println("I waited 1 hour");
        // List<List<String>> data = dt.asLists(String.class);
         //List<String> list = dt.asList(String.class);
 //        String buildingName = data.get(1).get(1);
@@ -31,6 +31,6 @@ public class StepDefinitions {
 
     @Then("my belly should growl")
     public void myBellyShouldGrowl() {
-        System.out.println("Hello");
+        System.out.println("Belly growled");
     }
 }
